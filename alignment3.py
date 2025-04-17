@@ -10,7 +10,7 @@ import random as rand
 
 # sh = shape, c = color, fc = fillcolor
 
-sh = "triangle"
+sh = "turtle"
 c = "pink"
 fc = "pink"
 tri.shapesize(1)
@@ -21,10 +21,11 @@ tri.setheading(90)
 def onclick(): 
  ()
 if (tri.onclick):
- x2 = rand.randint (-250,250) 
- y2 = rand.randint (-300, 300)
- def change_posit():
-  (x2,y2)
+    x2 = rand.randint (-250,250) 
+    y2 = rand.randint (-300, 300)
+    
+    def change_posit():
+        (x2,y2)
  
 def tri_clicked(a,b):
  change_posit
